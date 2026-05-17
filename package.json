@@ -1,0 +1,26 @@
+{
+  "name": "almanca-etki-paneli",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Türkiye Almanca Eğitimi Etki İzleme Paneli",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "d3-geo": "^3.1.1",
+    "d3-scale": "^4.0.2",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.13.0",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.10"
+  }
+}
