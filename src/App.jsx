@@ -344,7 +344,13 @@ export default function App() {
         Bu panel Almanca öğretmenlerinin sahadan bildirdiği verilerle çalışan açık bir izleme aracıdır.
         Veriler anonimdir ve yalnızca toplu istatistik için kullanılır. Karar alıcılara, kamuoyuna ve
         basına sunulmak üzere hazırlanmıştır.<br/>
-        <strong>Verileri kötüye kullanmayın · Yanlış bildirim yapmayın · Hareketin güvenilirliği herkesin sorumluluğundadır.</strong>
+       <strong>Verileri kötüye kullanmayın · Yanlış bildirim yapmayın · Hareketin güvenilirliği herkesin sorumluluğundadır.</strong>
+        
+        <div className="signature">
+          Bu panel, <strong>İbrahim Çimen</strong> tarafından Almanca öğretmenleri ve geleceği için kurulmuştur. <br/>
+          Veriler tüm meslektaşların ortak emeğidir.
+          <div className="signature-date">Mayıs 2026</div>
+        </div>
       </footer>
     </div>
   );
