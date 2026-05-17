@@ -585,3 +585,279 @@ html, body {
   .tabs, .action-bar, .form-card, .filter-bar { display: none !important; }
   #root { background: white; padding: 0; }
 }
+
+/* ============================================================
+   MOBİL UYUMLULUK İYİLEŞTİRMELERİ
+   ============================================================ */
+
+@media (max-width: 768px) {
+  #root {
+    padding: 16px 12px 60px;
+  }
+  
+  .masthead-title {
+    font-size: 32px !important;
+    line-height: 1;
+  }
+  
+  .masthead-subtitle {
+    font-size: 14px !important;
+    line-height: 1.4;
+  }
+  
+  .masthead-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+  }
+  
+  .dateline {
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    padding: 10px 0;
+  }
+  
+  .tabs {
+    gap: 0;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+  }
+  
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .tab {
+    padding: 12px 14px;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  
+  .kpi-grid {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+  
+  .kpi {
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 12px;
+  }
+  
+  .kpi:nth-child(2n) {
+    border-right: none;
+  }
+  
+  .kpi:last-child {
+    border-bottom: none;
+  }
+  
+  .kpi:nth-last-child(2):nth-child(odd) {
+    border-bottom: none;
+  }
+  
+  .kpi-value {
+    font-size: 30px;
+  }
+  
+  .kpi-label {
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    margin-bottom: 8px;
+  }
+  
+  .kpi-suffix {
+    font-size: 11px;
+    margin-top: 6px;
+  }
+  
+  .section {
+    margin-bottom: 36px;
+  }
+  
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .section-title {
+    font-size: 22px;
+  }
+  
+  .section-meta {
+    font-size: 10px;
+  }
+  
+  .two-col {
+    gap: 20px;
+  }
+  
+  .chart-card {
+    padding: 16px 12px;
+  }
+  
+  .chart-title {
+    font-size: 16px;
+  }
+  
+  .form-card {
+    padding: 20px 16px;
+  }
+  
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  
+  .field-label {
+    font-size: 9px;
+    letter-spacing: 0.12em;
+  }
+  
+  .input, .select, .textarea {
+    font-size: 16px;
+    padding: 12px;
+  }
+  
+  .map-wrap {
+    padding: 12px 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .map-svg {
+    min-width: 560px;
+  }
+  
+  .map-legend {
+    font-size: 10px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .legend-gradient {
+    width: 140px;
+    height: 10px;
+  }
+  
+  .filter-bar {
+    padding: 10px 12px;
+    gap: 6px;
+  }
+  
+  .filter-label {
+    width: 100%;
+    margin-bottom: 4px;
+    font-size: 9px;
+  }
+  
+  .chip {
+    font-size: 11px;
+    padding: 6px 10px;
+    letter-spacing: 0.02em;
+  }
+  
+  .chip-count {
+    font-size: 9px;
+  }
+  
+  .button {
+    padding: 12px 20px;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+  }
+  
+  .action-bar {
+    padding: 12px;
+    gap: 8px;
+  }
+  
+  .pull-quote {
+    font-size: 16px;
+    padding: 18px 0;
+    margin: 28px 0;
+    line-height: 1.45;
+  }
+  
+  .pull-quote::before {
+    font-size: 36px;
+    vertical-align: -12px;
+  }
+  
+  .recent-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 14px 0;
+  }
+  
+  .recent-time {
+    font-size: 10px;
+    min-width: auto;
+  }
+  
+  .recent-content {
+    font-size: 13px;
+  }
+  
+  .recent-status {
+    align-self: flex-start;
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+  
+  .empty {
+    padding: 40px 16px;
+  }
+  
+  .empty-title {
+    font-size: 18px;
+  }
+  
+  .footer-note {
+    font-size: 10px;
+    line-height: 1.7;
+    margin-top: 40px;
+  }
+  
+  .alert {
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+  
+  .ornament {
+    margin: 24px 0;
+    letter-spacing: 0.6em;
+  }
+}
+
+@media (max-width: 480px) {
+  .kpi-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .kpi {
+    border-right: none !important;
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+  }
+  
+  .kpi:last-child {
+    border-bottom: none;
+  }
+  
+  .masthead-title {
+    font-size: 26px !important;
+  }
+  
+  .section-title {
+    font-size: 20px;
+  }
+}
