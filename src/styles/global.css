@@ -861,3 +861,47 @@ html, body {
     font-size: 20px;
   }
 }
+/* ============================================================
+   İMZA BLOĞU — Footer içinde
+   ============================================================ */
+
+.signature {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.signature strong {
+  color: var(--wine);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.signature-date {
+  margin-top: 10px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .signature {
+    font-size: 13px;
+    margin-top: 24px;
+    padding-top: 20px;
+  }
+  
+  .signature-date {
+    font-size: 10px;
+  }
+}
