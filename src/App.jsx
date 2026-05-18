@@ -132,12 +132,12 @@ export default function App() {
       <header className="masthead">
         <div className="masthead-meta">
           <span>Türkiye • Almanca Öğretmenleri İnisiyatifi</span>
-          <span>Cilt I · Sayı 1</span>
+          <span>Anonim · Gerçek zamanlı</span>
         </div>
-        <h1 className="masthead-title">Almanca Eğitimi Etki İzleme Paneli</h1>
+        <h1 className="masthead-title">Almanca Öğretmenleri Norm Durum Paneli</h1>
         <p className="masthead-subtitle">
-          2023 Tebliğler Dergisi kararı sonrası liselerde Almanca dersinin durumu,
-          sahadan toplanan anonim verilerle gerçek zamanlı izleniyor.
+          Norm fazlası, atama bekleyen ve aktif Almanca öğretmenlerinin durumu,
+          sahadan toplanan anonim verilerle 81 ilde gerçek zamanlı izleniyor.
         </p>
       </header>
       
