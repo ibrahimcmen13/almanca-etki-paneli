@@ -72,6 +72,13 @@ export const DURUMLAR = [
     short: "Branş Değiştirdi",
     color: "#6b4226",
     description: "Almanca öğretmenliği olarak devam edemediğim için başka branşa geçtim."
+  },
+  { 
+    key: "gelecek_yil_norm", 
+    label: "Önümüzdeki yıl norm fazlası olacağım",
+    short: "Gelecek Yıl Norm",
+    color: "#d97706",
+    description: "Şu an aktif olarak çalışıyorum ama gelecek yıl norm fazlası olacağımı biliyorum/söylendi."
   }
 ];
 
