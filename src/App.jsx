@@ -8,7 +8,7 @@ import RecentFeed from './components/RecentFeed.jsx';
 import { 
   IlBarChart, DurumPieChart, OkulTipiChart, DersSaatiChart, BolgeChart 
 } from './components/Charts.jsx';
-
+import { Analytics } from "@vercel/analytics/react";
 export default function App() {
   const [reports, setReports] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -352,6 +352,7 @@ export default function App() {
           <div className="signature-date">Mayıs 2026</div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
